@@ -5,7 +5,7 @@ Permite realizar las 4 operaciones básicas con sabor.
 ## Instalación
 ```
 npm install carlonator
-``
+```
 
 ## Uso
 
