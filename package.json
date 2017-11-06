@@ -1,0 +1,32 @@
+{
+  "name": "carlonator",
+  "version": "0.1.0",
+  "description": "Ejemplo para la creación de un paquete en NPM",
+  "main": "dist/src/carlonator.js",
+  "scripts": {
+    "build": "babel src/carlonator.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueminded/carlonator.git"
+  },
+  "keywords": [
+    "sm",
+    "digital",
+    "capacitacion",
+    "fundamentos"
+  ],
+  "author": "Carlos Vergara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blueminded/carlonator/issues"
+  },
+  "homepage": "https://github.com/blueminded/carlonator#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
